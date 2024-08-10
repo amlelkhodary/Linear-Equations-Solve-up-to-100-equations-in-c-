@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2024-08-02T12:29:45.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="rS4rwtP09uEwT7pBL0tF" version="24.6.4" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-0" value="Linear_equations" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="90" width="270" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-1" value="- eq_num : int&lt;div&gt;- equations : vector&amp;lt;string&amp;gt;&lt;/div&gt;&lt;div&gt;- modified_equations : vector&amp;lt;string&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fNCk7JQMXKDNMTydPqRq-0">
+          <mxGeometry y="26" width="270" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fNCk7JQMXKDNMTydPqRq-0">
+          <mxGeometry y="100" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-3" value="&lt;div&gt;+ set_eq_num ( _eq_num: int )&lt;div&gt;+ set_equations ( _equations : vector&amp;lt;string&amp;gt; )&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ modify_equatins ( )&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fNCk7JQMXKDNMTydPqRq-0">
+          <mxGeometry y="108" width="270" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-8" value="Linear_equations_commands" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="90" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-9" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fNCk7JQMXKDNMTydPqRq-8">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fNCk7JQMXKDNMTydPqRq-8">
+          <mxGeometry y="52" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-11" value="+ num_vars ( ) : int&lt;div&gt;+ equation ( eq_num : int ) : string&lt;/div&gt;&lt;div&gt;+ column ( var_name : string ) : vector&amp;lt;int&amp;gt;&lt;/div&gt;&lt;div&gt;+ add ( eq1 : int , eq2 : int ) : string&lt;/div&gt;&lt;div&gt;+ subtract ( eq1 : int , eq2 :int ) : string&lt;/div&gt;&lt;div&gt;+ substitute ( var_name : string , aq1 : int , eq2 : int )&lt;/div&gt;&lt;div&gt;+ D ( ) : array [int] [int]&lt;/div&gt;&lt;div&gt;+ D_var ( eq_num : int ) : array [int] [int]&lt;/div&gt;&lt;div&gt;+ D_value ( ) : int&lt;/div&gt;&lt;div&gt;+ solve ( ) : vector&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fNCk7JQMXKDNMTydPqRq-8">
+          <mxGeometry y="60" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-12" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="110" as="sourcePoint" />
+            <mxPoint x="530" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-13" value="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="80" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fNCk7JQMXKDNMTydPqRq-14" value="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="337" y="80" width="80" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

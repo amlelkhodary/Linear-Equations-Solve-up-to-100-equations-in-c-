@@ -1,0 +1,15 @@
+4
+2x1-10+20x4+4x3=16+7x1-x2
+10x1+2x2+4+1x3+x4-5x4=8
+15x1+x2+2x3=13+4x1-6x2+x4
+-x1-2x2-10x3=-x1-1
+num_vars
+equation 3
+column x2
+add 2 4
+subtract 1 3
+substitute x4 3 4
+D x4
+D
+D_value
+solve
